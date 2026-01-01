@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis y Toma de Decisiones | Vértice Uruguay</title>
+    <link rel="stylesheet" href="../pagina_inicio.css">
+    <link rel="stylesheet" href="./historian_ana.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="../img/LogoVertice.png" alt="Vértice Uruguay Logo" class="logo">
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="main-nav" id="mainNav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Sobre_nosotros/sobre_nosotros.html">CONÓZCANOS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle">PRODUCTOS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../Esquema_general/esquema_general.html">Esquema General</a></li>
+                                <li><a href="../Drivers/driver.html">I/O Drivers</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">HMI/SCADA</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../El_nuevo_iFIX/el_nuevo.html">iFIX</a></li>
+                                        <li><a href="../iFIX_WebSpace/webspace.html">iFIX WebSpace</a></li>
+                                        <li><a href="../Complecity/complecity.html">Cimplicity</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Historiador</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Historian/historian.html">Historian</a></li>
+                                        <li><a href="../Historian_ana/historian_ana.html">Historian Analysis</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">MES</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../Plant_aplications/plant.html">Plant Applications</a></li>
+                                        <li><a href="../Batch/batch.html">Batch Execution</a></li>
+                                        <li><a href="../CSense/csense.html">CSense</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu active">
+                                    <a href="#">Vértice Apps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../App/app.html">Aplicaciones de Vértice</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle">SERVICIOS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../Asesoramineto/asesoramiento.html">Asesoría / Consultoría</a></li>
+                                <li><a href="../Integracion_sistemas/sistemas.html">Integración de Sistemas</a></li>
+                                <li><a href="../Migracion/migracion.html">Migración / Virtualización</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle">SOPORTE</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../Soporte_tecnico/soporte.html">Soporte Técnico</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle">CURSOS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../Curso_iFix/curso_ifix.html">iFIX</a></li>
+                                <li><a href="../Curso_hist/hist.html">Historian</a></li>
+                                <li><a href="../Talleres/talleres.html">Talleres</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Contacto/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="page-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="page-title">Análisis y Toma de Decisiones</h1>
+                <div class="breadcrumb">
+                    <a href="../index.html">Inicio</a>
+                    <span class="separator">/</span>
+                    <a href="ProdOverview.html">Productos</a>
+                    <span class="separator">/</span>
+                    <span class="current">Análisis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="container">
+            
+            <!-- Intro Section -->
+            <div class="intro-section">
+                <div class="intro-content">
+                    <h2 class="section-title">Herramientas de Análisis Avanzado</h2>
+                    <div class="title-underline"></div>
+                    <p class="intro-text">
+                        Cuando de análisis y toma de decisiones se trata, la familia <strong>Proficy</strong> ofrece herramientas únicas que permiten sacar conclusiones a partir de todos los datos recolectados en tiempo real.
+                    </p>
+                    <p class="intro-text">
+                        Se trata de componentes que se combinan naturalmente entre ellos para dar respuestas a interrogantes tales como:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Key Questions Section -->
+            <div class="questions-section">
+                <div class="questions-grid">
+                    <div class="question-card">
+                        <div class="question-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="question-title">¿Qué sucedió?</h3>
+                        <p class="question-description">¿Cuándo sucedió y cómo sucedió?</p>
+                    </div>
+
+                    <div class="question-card">
+                        <div class="question-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="question-title">¿Cuáles fueron las causas?</h3>
+                        <p class="question-description">Identificación de causas raíz</p>
+                    </div>
+
+                    <div class="question-card">
+                        <div class="question-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="question-title">¿He visto esto antes?</h3>
+                        <p class="question-description">Análisis de patrones históricos</p>
+                    </div>
+
+                    <div class="question-card">
+                        <div class="question-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="question-title">¿Puedo anticipar problemas?</h3>
+                        <p class="question-description">Indicadores clave en tiempo real</p>
+                    </div>
+                </div>
+                <p class="questions-footer">
+                    <strong>GE Vernova</strong> ofrece dos soluciones avanzadas de software de análisis predictivo.
+                </p>
+            </div>
+
+            <!-- Proficy CSense Section -->
+            <div id="csense" class="product-section csense-section">
+                <div class="product-header">
+                    <div class="product-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h2 class="product-title">Proficy CSense</h2>
+                    <div class="title-underline"></div>
+                    <p class="product-subtitle">Optimización de Procesos Industriales</p>
+                </div>
+
+                <div class="product-content">
+                    <p class="product-description">
+                        <strong>Proficy CSense</strong> es un software de optimización de procesos industriales para que las empresas de fabricación reduzcan la variabilidad del proceso y mejoren rápidamente el rendimiento, la productividad, la calidad, el tiempo de actividad, las emisiones y la utilización de agua, aire, gas, electricidad, etc.
+                    </p>
+                    <p class="product-description">
+                        El software de análisis industrial Proficy CSense utiliza <strong>IA y aprendizaje automático</strong> para que los ingenieros de procesos puedan combinar datos de múltiples fuentes e identificar rápidamente problemas, descubrir las causas raíz, predecir el rendimiento futuro y automatizar acciones para mejorar continuamente la calidad, la utilización y la productividad.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Analizar</h3>
+                        <p class="feature-description">Análisis profundo de datos históricos y en tiempo real</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Supervisar</h3>
+                        <p class="feature-description">Monitoreo continuo de indicadores clave</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Predecir</h3>
+                        <p class="feature-description">Predicción del rendimiento futuro</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Simular</h3>
+                        <p class="feature-description">Simulación de escenarios operativos</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Optimizar</h3>
+                        <p class="feature-description">Optimización automática de procesos</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Controlar</h3>
+                        <p class="feature-description">Control de puntos de ajuste en tiempo real</p>
+                    </div>
+                </div>
+
+                <div class="capabilities-section">
+                    <h3 class="capabilities-title">Capacidades Avanzadas</h3>
+                    <p class="capabilities-description">
+                        <strong>Proficy CSense</strong> ofrece capacidades para extraer información de datos históricos y desarrollar, probar e implementar rápidamente cálculos sencillos, análisis predictivo y soluciones de optimización y control para reducir la variabilidad y mejorar las operaciones.
+                    </p>
+                    <div class="value-proposition">
+                        <div class="value-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <p class="value-text">
+                            Con cinco funciones de análisis únicas en un solo paquete, ayuda a organizaciones de todo el mundo a generar valor de negocio rápidamente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proficy SmartSignal Section -->
+            <div id="smartsignal" class="product-section smartsignal-section">
+                <div class="product-header">
+                    <div class="product-badge smartsignal-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h2 class="product-title">Proficy SmartSignal</h2>
+                    <div class="title-underline"></div>
+                    <p class="product-subtitle">Análisis Predictivo con IA/ML</p>
+                </div>
+
+                <div class="product-content">
+                    <p class="product-description">
+                        <strong>SmartSignal</strong> es un software para empresas de energía, generación de energía, metales, minería y químicas que les permite lograr energía continua y disponible mediante análisis predictivo de IA/ML. Reduzca las fallas de los equipos, diagnostique y analice problemas para obtener visibilidad, urgencia de riesgos y soluciones permanentes.
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Reduzca Paradas No Planificadas</h3>
+                        <p class="benefit-description">
+                            SmartSignal aprovecha el análisis predictivo de IA/ML para la detección temprana y precisa de problemas emergentes en activos industriales.
+                        </p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Mantenimiento Predictivo</h3>
+                        <p class="benefit-description">
+                            Capacite a sus equipos para pasar del mantenimiento reactivo al predictivo, anticipando problemas antes de que ocurran.
+                        </p>
+                    </div>
+
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title">Energía Continua</h3>
+                        <p class="benefit-description">
+                            Logre energía continua y disponible para operaciones críticas sin interrupciones.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="industries-section">
+                    <h3 class="industries-title">Industrias Objetivo</h3>
+                    <div class="industries-grid">
+                        <div class="industry-tag">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                            <span>Energía</span>
+                        </div>
+                        <div class="industry-tag">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                            <span>Generación de Energía</span>
+                        </div>
+                        <div class="industry-tag">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                            <span>Metales</span>
+                        </div>
+                        <div class="industry-tag">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                            </svg>
+                            <span>Minería</span>
+                        </div>
+                        <div class="industry-tag">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                            <span>Químicas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <div class="cta-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                    </svg>
+                </div>
+                <h3 class="cta-title">¿Listo para transformar su análisis de datos?</h3>
+                <p class="cta-description">
+                    Descubra cómo las soluciones de análisis predictivo de Proficy pueden revolucionar sus operaciones con IA y aprendizaje automático.
+                </p>
+                <div class="cta-buttons">
+                    <a href="ContactUs.html" class="btn btn-primary">Contáctenos</a>
+                    <a href="ProdOverview.html" class="btn btn-secondary">Ver Más Productos</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../Images/Vertice_Copyright.png" alt="Vértice Copyright" class="footer-copyright-img">
+                </div>
+                <div class="footer-text">
+                    <p>&copy; Vértice Uruguay - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../pagina_inicio.js"></script>
+    <script src="./historian_ana.js"></script>
+</body>
+</html>
